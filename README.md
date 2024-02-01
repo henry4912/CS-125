@@ -1,1 +1,1 @@
-# CS-125
+# CS 125 Next Gen Search Systems Project
