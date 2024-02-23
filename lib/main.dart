@@ -1,12 +1,23 @@
 import 'package:cs125/tab_one.dart';
 import 'package:cs125/tab_two.dart';
 import 'package:flutter/material.dart';
+import 'package:firebase_core/firebase_core.dart';
+import 'firebase_options.dart';
 //https://www.youtube.com/watch?v=XSheN4Lkhpc
+
+
+await Firebase.initializeApp(
+  options: DefaultFirebaseOptions.currentPlatform,
+);
+
+
 void main() {
   runApp(const MyApp());
   runApp(const FormExampleApp());
   runApp(const TabBarDemo());
 }
+
+
 
 class TabBarDemo extends StatelessWidget {
   const TabBarDemo({super.key});

@@ -7,6 +7,25 @@
   "client": [
     {
       "client_info": {
+        "mobilesdk_app_id": "1:372125687370:android:a21cc69456d13efe1090b3",
+        "android_client_info": {
+          "package_name": "com.example.app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBubTYWPi4hTLBDVDriQH2G-l_yeUFfkeo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
         "mobilesdk_app_id": "1:372125687370:android:3a3e67bda80cac091090b3",
         "android_client_info": {
           "package_name": "cs125.healthsynergy"
