@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "372125687370",
+    "project_id": "cs125-84277",
+    "storage_bucket": "cs125-84277.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:372125687370:android:3a3e67bda80cac091090b3",
+        "android_client_info": {
+          "package_name": "cs125.healthsynergy"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBubTYWPi4hTLBDVDriQH2G-l_yeUFfkeo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
