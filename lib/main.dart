@@ -3,15 +3,15 @@ import 'package:cs125/tab_two.dart';
 import 'package:flutter/material.dart';
 import 'package:firebase_core/firebase_core.dart';
 import 'firebase_options.dart';
+import 'package:firebase_database/firebase_database.dart';
 //https://www.youtube.com/watch?v=XSheN4Lkhpc
 
 
-await Firebase.initializeApp(
-  options: DefaultFirebaseOptions.currentPlatform,
-);
 
 
-void main() {
+
+void main() async {
+  await Firebase.initializeApp(options: DefaultFirebaseOptions.currentPlatform,);
   runApp(const MyApp());
   runApp(const FormExampleApp());
   runApp(const TabBarDemo());
