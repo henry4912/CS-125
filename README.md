@@ -1,4 +1,7 @@
-# CS 125 Next Gen Search Systems Project
-Group 40
+# CS125
 
-All Flutter/Dart files we are working on are located in the lib folder. Everything else is for the phone emulator to run.
+A new Flutter project.
+
+## Getting Started
+
+FlutterFlow projects are built to run on the Flutter _stable_ release.
